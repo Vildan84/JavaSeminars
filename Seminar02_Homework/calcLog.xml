@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-27T18:49:00.922255499Z</date>
+  <millis>1669574940922</millis>
+  <nanos>255499</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Calculator</logger>
+  <level>INFO</level>
+  <class>org.example.Calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>User entered number 14</message>
+</record>
+<record>
+  <date>2022-11-27T18:49:02.931505093Z</date>
+  <millis>1669574942931</millis>
+  <nanos>505093</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Calculator</logger>
+  <level>INFO</level>
+  <class>org.example.Calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>User entered number 34</message>
+</record>
+<record>
+  <date>2022-11-27T18:49:04.825780989Z</date>
+  <millis>1669574944825</millis>
+  <nanos>780989</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Calculator</logger>
+  <level>INFO</level>
+  <class>org.example.Calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>User entered operation -</message>
+</record>
+<record>
+  <date>2022-11-27T18:49:04.827182646Z</date>
+  <millis>1669574944827</millis>
+  <nanos>182646</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Calculator</logger>
+  <level>INFO</level>
+  <class>org.example.Calculator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Result -20</message>
+</record>
+</log>
