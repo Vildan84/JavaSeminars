@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class EightQueens {
 
-    static int[] board = {0,0,0,0,0,0,0,0};
+    static int[] lines = {0,0,0,0,0,0,0,0};
     static int index = 0;
 
     public static void main(String[] args){
@@ -13,20 +13,20 @@ public class EightQueens {
             if (checking()){
                 if (index == 7) {
 
-                    for (int j : board) {
+                    for (int j : lines) {
                         printBoard(j);
                     }
                     System.out.println("////////////////////////");
-                    board[index]++;
+                    lines[index]++;
                 }
                 else {
                     index++;
                 }
             }
             else {
-                board[index]++;
+                lines[index]++;
             }
-        } while (board[0]<8);
+        } while (lines[0]<8);
     }
 
     static boolean checking() {
@@ -35,14 +35,14 @@ public class EightQueens {
             return true;
         }
 
-        if (board[index]>7){
-            board[index] = 0;
+        if (lines[index]>7){
+            lines[index] = 0;
             index--;
             return false;
         }
 
         for (int i = 0; i < index; i++){
-            if ((board[index] == board[i])|((Math.abs(board[index] - board[i])) == (index-i))){
+            if ((lines[index] == lines[i])|((Math.abs(lines[index] - lines[i])) == (index-i))){
                 return false;
             }
         }
